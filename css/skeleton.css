@@ -49,7 +49,8 @@
 @media (min-width: 400px) {
   .container {
     width: 85%;
-    padding: 0; }
+    padding: 0;
+  }
 }
 
 /* For devices larger than 550px */
@@ -130,7 +131,6 @@ body {
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
-   //background: url(../images/Freeman_lab_logo_empty_med.jpg) repeat 0 0;
    background-color: grey;
    }
 
@@ -487,7 +487,7 @@ banner.background {
 /* Navigation
 ___________________________________________________ */
 .navigation {
-    background-color: #000000;
+    background-color: grey;
 }
 
 .container.primary {
@@ -569,17 +569,34 @@ a.top {
     padding: 0 1.4em;
 }
 
-.homelogo {
+.photoband img {
+    width:100%;
+    padding: 0 0 0 0;
+    margins: 0 0 0 0;
+}
+
+.researchlogo {
     float: left;
     width: 25%;
 }
 
-.homelogo img {
+.researchlogo img {
     width: 90%;
 }
 
 .homecontent {
     float: none;
+    text-align: left;
+}
+
+.textblock {
+    text-align: left;
+}
+
+.textblock h6 {
+    background-color: #000000;
+    color: #ffffff;
+    text-indent: 10px;
 }
 
 /* Profiles */

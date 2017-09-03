@@ -517,7 +517,7 @@ nav.primary ul li {
 nav.primary ul li a {
     display: inline-block;
     line-height: 50px;
-    padding: 0 20px;
+    padding: 0 10px;
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
@@ -577,11 +577,11 @@ a.top {
 
 .researchlogo {
     float: left;
-    width: 25%;
+    width: 275px;
 }
 
 .researchlogo img {
-    width: 90%;
+    width: 250px;
 }
 
 .homecontent {
@@ -617,6 +617,11 @@ profile img.pdflogo {
     width: 24%;
 }
 
+.definitions p {
+    font-size: 80%;
+    font-style: italic;
+}
+
 /* Larger than mobile */
 @media (min-width: 400px) {
 
@@ -636,6 +641,7 @@ profile img.pdflogo {
         width: 48%;
     }
 }
+
 /* Larger than tablet */
 @media (min-width: 750px) {
 
@@ -644,6 +650,89 @@ profile img.pdflogo {
     .list profile {
         width: 32%;
     }
+}
+
+/* News */
+
+.reg_news img {
+    width: 200px;
+}
+
+.mobile_news img {
+    width: 0px;
+}
+
+.news tr {
+    vertical-align: top;
+}
+
+.news td {
+    min-width: 150px;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+    /* Shrink news posts */
+
+    .news td {
+       min-width: 30px;
+    }
+
+    .reg_news img {
+        width: 0px;
+    }
+
+    .mobile_news img {
+        width: 200px;
+    }
+
+    .reg_news_td {
+        display:none;
+    }
+
+
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 750px) {
+
+    /* Expand news posts */
+
+    .news td {
+       min-width: 100px;
+    }
+
+    .reg_news img {
+       width: 200px;
+    }
+
+    .mobile_news img {
+        width: 0px;
+    }
+
+    .reg_news_td {
+        display: block;
+     }
+
+     .reg_news_br {
+        display: none;
+     }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    .news td {
+        min-width: 150px;
+    }
+
+    /*.reg_news img {
+        width: 200px;
+    }
+
+    .mobile_news img {
+        width: 0px;
+    }*/
 }
 
 /* Media Queries

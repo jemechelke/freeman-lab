@@ -48,7 +48,15 @@
 /* For devices larger than 300px */
 @media (min-width: 300px) {
   .container {
-    width: 85%;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 90%;
     padding: 0;
   }
 }

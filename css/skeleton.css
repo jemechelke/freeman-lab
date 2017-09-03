@@ -592,6 +592,16 @@ a.top {
     width: 250px;
 }
 
+.researchlogo2 {
+    float: right;
+    width: 275px;
+}
+
+.researchlogo2 img {
+    width: 220px;
+    padding: 10px 10px 10px 30px;
+}
+
 .homecontent {
     float: none;
     text-align: left;

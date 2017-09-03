@@ -619,16 +619,26 @@ a.top {
 
 /* Larger than mobile */
 @media (min-width: 300px) {
+
+    .researchlogo2 {
+        float: left;
+    }
+
     .researchlogo2 img {
         padding: 0 0 0 0;
     }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
+@media (min-width: 505px) {
+
+    .researchlogo2 {
+        float: right;
+    }
+
     .researchlogo2 img {
-            padding: 0 0 0 10px;
-        }
+        padding: 0 0 0 10px;
+    }
 }
 
 

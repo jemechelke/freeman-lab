@@ -45,8 +45,8 @@
   float: left;
   box-sizing: border-box; }
 
-/* For devices larger than 400px */
-@media (min-width: 400px) {
+/* For devices larger than 300px */
+@media (min-width: 300px) {
   .container {
     width: 85%;
     padding: 0;
@@ -449,7 +449,7 @@ banner.background {
 }
 
 /* Larger than mobile */
-@media (min-width: 400px) {
+@media (min-width: 300px) {
 
     /* Resize umn logo to smaller */
 
@@ -535,7 +535,7 @@ a.top {
 }
 
 /* Larger than mobile */
-@media (min-width: 400px) {
+@media (min-width: 300px) {
 
     /* Use Select for nav on smaller screens */
 
@@ -623,7 +623,7 @@ profile img.pdflogo {
 }
 
 /* Larger than mobile */
-@media (min-width: 400px) {
+@media (min-width: 300px) {
 
     /* Collapse profiles */
 
@@ -671,7 +671,7 @@ profile img.pdflogo {
 }
 
 /* Larger than mobile */
-@media (min-width: 400px) {
+@media (min-width: 300px) {
 
     /* Shrink news posts */
 
@@ -746,7 +746,7 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 300px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}

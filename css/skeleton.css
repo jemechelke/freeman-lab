@@ -542,6 +542,17 @@ a.top {
     font-size: 80%;
 }
 
+tr.alumni {
+    vertical-align: top;
+}
+
+.current_position {
+    font-size: 80%;
+    font-style: italic;
+    color: grey;
+    padding: 10px;
+}
+
 /* Larger than mobile */
 @media (min-width: 300px) {
 

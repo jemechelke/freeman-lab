@@ -665,6 +665,11 @@ profile img.pdflogo {
     height: auto;
 }
 
+.googlescholarlogo {
+    max-width: 100px;
+    height: auto;
+}
+
 .list profile {
     display: inline-block;
     vertical-align: top;
